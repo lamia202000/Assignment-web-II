@@ -1,0 +1,36 @@
+/* media file */
+
+/* top menu bar */
+
+@media screen and (max-width:576) {.web-menubar{
+    width: 100%;
+    justify-content:space-around;
+}
+}
+
+/* header  */
+
+@media screen and (max-width:576) {.header-container{
+
+    width: 100%;
+    grid-template-columns: repeat(1 , 1fr);
+    
+
+}
+    
+}
+
+
+
+
+
+/* online game section */
+
+
+@media screen and (max-width:576px) {
+    .online-game-image {
+
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
