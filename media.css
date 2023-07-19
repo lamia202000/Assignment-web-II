@@ -2,21 +2,18 @@
 
 /* top menu bar */
 
-@media screen and (max-width:576) {.web-menubar{
-    width: 100%;
-    justify-content:space-around;
-}
+@media screen and (max-width:576) {
+    .web-menubar {
+        width: 100%;
+        justify-content: space-around;
+    }
 }
 
 /* header  */
-
-@media screen and (max-width:576) {.header-container{
-
-    width: 100%;
-    grid-template-columns: repeat(1 , 1fr);
-    
-
-}
+@media screen and(max-width:576px) {
+    .header-container{ 
+        display: flex;
+        flex-direction: column;}
     
 }
 
@@ -32,5 +29,5 @@
 
         grid-template-columns: repeat(1, 1fr);
     }
-    
+
 }
