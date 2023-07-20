@@ -358,6 +358,7 @@ h1 {
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 30px;
+    flex-wrap: wrap;
 }
 
 
@@ -367,13 +368,14 @@ h1 {
     margin-left: 200px;
     margin-right: 200px;
     margin-top: 30px;
+    flex-wrap: wrap;
 
 }
 
 .ctg-btn{
     background-color: white;
     width: 35%;
-    height: 50px;
+    height: 70px;
     border-radius: 30px;
     border: 0px;
     color: black;

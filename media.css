@@ -1,21 +1,39 @@
 /* media file */
 
-/* top menu bar */
+/* top menu bar */ 
 
-@media screen and (max-width:576) {
-    .web-menubar {
-        width: 100%;
-        justify-content: space-around;
-    }
+
+@media screen and (min-width:577px) and (max-width:992px) {.header-container{
+    display: flex;
+    flex-direction: column;
+}
+    
 }
 
+
+
+
+
 /* header  */
-@media screen and(max-width:576px) {
+@media screen and (max-width:576px) {
     .header-container{ 
         display: flex;
         flex-direction: column;}
     
 }
+
+@media screen and (max-width:576px) {.header-ending{
+    display: flex;
+    flex-direction: column;
+}
+    
+}
+
+
+@media screen and (max-width:576px) {.foot{
+    display: flex;
+    flex-direction: column;
+}}
 
 
 
